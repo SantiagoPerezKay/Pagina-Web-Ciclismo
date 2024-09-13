@@ -49,9 +49,7 @@ opacity:.75;
 }
 
 
-.nav-item:hover {
-  background-color: var(--first-alpha-color);
-}
+
 .nav-item {
 
   transition: all 0.1s ease-out;
@@ -77,8 +75,13 @@ opacity:.75;
 
 /* Para pantallas de 768px o menos (dispositivos móviles) */
 @media (max-width: 767px) {
-}
+  .nav-item:hover {
+    background-color: var(--first-alpha-color);
+  }
 
 /* Para pantallas de 992px o más (desktops) */
 @media (min-width: 768px) {
+
+
+}
 }
